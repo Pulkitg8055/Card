@@ -171,8 +171,10 @@
 }
 
 .fees_cycle {
-	font-size: 11px;
-	margin-left: 15%;
+	font-size: 8px;
+	margin-left: 30%;
+	color: gray;
+	margin-bottom: 1.8%;
 }
 
 .big {
