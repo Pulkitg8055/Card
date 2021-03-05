@@ -26,7 +26,17 @@ export default function Card({ item }) {
 				<div className='card-body'>
 					<div className='left'>
 						<div className='card-title'>
-							<h4>{item.college_name}</h4>
+							<h4>
+								{item.college_name}{' '}
+								<span class='fa fa-star checked'></span>
+								<span class='fa fa-star checked'></span>
+								<span class='fa fa-star checked'></span>
+								<span class='fa fa-star checked'></span>
+								<span
+									class='fa fa-star checked'
+									style={{ color: 'grey' }}
+								></span>
+							</h4>
 						</div>
 						<p style={{ padding: '1.5px', color: 'grey' }}>
 							{item.nearest_place[0]}
